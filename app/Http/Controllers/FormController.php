@@ -8,7 +8,7 @@ class FormController extends Controller
 {
     //
     public function contact2(){
-        $data = session()->get('allInput', []);
+        $data  = session()->get('allInput', []);
         $email = session()->get('email', []);
         $phone = session()->get('phone', []);
         var_dump($data);
